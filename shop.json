@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1",
+    "title": "Гора 1",
+    "vendor_code": "111",
+    "description": "Пейзаж",
+    "price": 10000,
+    "img": "mountain1.jpeg"
+  },
+  {
+    "id": "2",
+    "title": "Гора 2",
+    "vendor_code": "222",
+    "description": "Пейзаж",
+    "price": 15000,
+    "img": "mountain2.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "Гора 3",
+    "vendor_code": "333",
+    "description": "Пейзаж",
+    "price": 8000,
+    "img": "mountain3.jpeg"
+  },
+  {
+    "id": "4",
+    "title": "Яблоки",
+    "vendor_code": "444e",
+    "description": "Натюрморт",
+    "price": 4000,
+    "img": "apple.jpeg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Фрукты",
+    "vendor_code": "4445e",
+    "description": "Натюрморт",
+    "price": 6000,
+    "img": "apple2.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Фрукты 2",
+    "vendor_code": "4446e",
+    "description": "Натюрморт",
+    "price": 4000,
+    "img": "apple3.jpeg"
+  },
+  {
+    "id": "7",
+    "title": "Женщина",
+    "vendor_code": "4447e",
+    "description": "Портрет",
+    "price": 7000,
+    "img": "portret1.jpeg"
+  },
+  {
+    "id": "8",
+    "title": "Мужчина",
+    "vendor_code": "4448e",
+    "description": "Портрет",
+    "price": 8000,
+    "img": "portret2.jpeg"
+  },
+  {
+    "id": "9",
+    "title": "Кошка",
+    "vendor_code": "444e",
+    "description": "Портрет",
+    "price": 5000,
+    "img": "portret3.jpeg"
+  }
+  
+]
