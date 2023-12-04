@@ -16,6 +16,8 @@
        <!--начало уникального содержания страницы-->
         <div class="card-body">
             <h5 class='card-title text-center'>Каких персонажей вы хотели бы увидеть в будущем?</h5>
+             <input type="radio" id="price" name="sort" onchange="sort()">Сложность геймплея </input>
+                  <input type="radio" id="title" name="sort" checked onchange="sort()">Имя Персонажа </input>
                
             <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
                 <input name="q" type="hidden" value="search">
