@@ -15,22 +15,12 @@ async function getResponse() {
     content = content.splice(0, 6)
     console.log(content)
     let key
-//    for (key in content) {
-//        console.log(content[key].id, content[key].title)
-//        console.log(content[key])
-//    }
+    for (key in content) {
+      console.log(content[key].id, content[key].title)
+       console.log(content[key])
+  }
 
-    content_title=content.sort((a, b) => {
-    const nameA = a.title.toUpperCase();
-    const nameB = b.title.toUpperCase();
-        if (nameA < nameB) {
-            return -1;
-        }
-        if (nameA > nameB) {
-            return 1;
-        }
-        return 0;
-    });
+   
 
     let node_for_insert = document.getElementById("node_for_insert")
     for (key in content_title) {
