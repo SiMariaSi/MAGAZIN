@@ -16,7 +16,7 @@ async function getResponse() {
     //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
     //let responce = await fetch("http://185.182.111.214:7628/tmp/g06u28.txt_api.json")
 //    let responce = await fetch("../../tmp/g06u28.shop.json")
-    let response = await fetch("../sem2 dz/shop.json")
+    let response = await fetch("shop.json")
 
     let content = await response.text()
     console.log(content)
@@ -51,7 +51,7 @@ async function getResponse1() {
     //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
     //let responce = await fetch("http://185.182.111.214:7628/tmp/g06u28.txt_api.json")
 //    let responce = await fetch("../../tmp/g06u28.shop.json")
-    let response = await fetch("../sem2 dz/shop.json")
+    let response = await fetch("shop.json")
 
     let content = await response.text()
     console.log(content)
