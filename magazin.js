@@ -1,12 +1,4 @@
-function sort() {
-   
-    let title=document.getElementById('title');
-  
 
-    if(title.checked) {
-        document.getElementById('node_for_insert').innerHTML = '';
-        getResponse1()}
-}
 
 
 async function getResponse1() {
@@ -54,7 +46,7 @@ async function getResponse1() {
     }
 }
 getResponse1
-sort()
+
 
 
 
