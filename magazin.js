@@ -34,8 +34,8 @@ async function getResponse() {
     let node_for_insert = document.getElementById("node_for_insert")
     for (key in content_price) {
         node_for_insert.innerHTML += `
-        <li style="width: 420px" class="d-flex flex-column m-1 p-1 border bgcolor="gray"">
-        <img style="width: 420px" class="align-self-center" src=${content[key].img}>
+        <li style="width: 350px" class="d-flex flex-column m-1 p-1 border bgcolor="gray"">
+        <img style="width: 350px" class="align-self-center" src=${content[key].img}>
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. </p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
@@ -79,8 +79,8 @@ async function getResponse1() {
     let node_for_insert = document.getElementById("node_for_insert")
     for (key in content_title) {
         node_for_insert.innerHTML += `
-        <li style="width: 420px" class="d-flex flex-column m-1 p-1 border  bgcolor="gray"">
-        <img style="width: 420px" class="align-self-center" src=${content[key].img}>
+        <li style="width: 350px" class="d-flex flex-column m-1 p-1 border  bgcolor="gray"">
+        <img style="width: 350px" class="align-self-center" src=${content[key].img}>
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. Сложность геймплея: ${content[key].price} р.</p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
