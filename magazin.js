@@ -39,7 +39,7 @@ async function getResponse() {
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. </p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-        <p class="card-text" >Заказать <input class="w-25" type="checkbox" name="check" value="0" onClick="this.value = this.checked ? 1 : 0"> </p>
+        <p class="card-text" >Предложить <input class="w-25" type="checkbox" name="check" value="0" onClick="this.value = this.checked ? 1 : 0"> </p>
         </li>
                 `
     }
@@ -84,7 +84,7 @@ async function getResponse1() {
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. Сложность геймплея: ${content[key].price} р.</p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
-        <p class="card-text" >Заказать <input class="w-25" type="checkbox" name="check" value="0" onClick="this.value = this.checked ? 1 : 0"> </p>
+        <p class="card-text" >Предложить <input class="w-25" type="checkbox" name="check" value="0" onClick="this.value = this.checked ? 1 : 0"> </p>
         </li>
                 `
     }
