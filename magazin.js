@@ -79,7 +79,7 @@ async function getResponse1() {
     let node_for_insert = document.getElementById("node_for_insert")
     for (key in content_title) {
         node_for_insert.innerHTML += `
-        <li style="width: 370px" class="d-flex flex-column m-1 p-1 border bg-body bgcolor="gray"">
+        <li style="width: 370px" class="d-flex flex-column m-1 p-1 border  bgcolor="gray"">
         <img style="width: 370px" class="align-self-center" src=${content[key].img}>
         <h5 class="card-title">${content[key].title}</h5>
         <p class="card-text">${content[key].description}. Сложность геймплея: ${content[key].price} р.</p>
